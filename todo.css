@@ -1,0 +1,81 @@
+
+header{
+    text-align: center;
+    background-color: rgb(63, 70, 71);
+    padding: 10px;
+    
+    border-style:inherit;
+    border-radius: 30px;
+}
+header h1{
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(255, 0, 13);
+    border: 8px solid rgb(174, 233, 13);
+    padding: 6px 12px;
+    border-radius: 30px;
+    display: inline-block;
+    
+    
+}
+body > main > section > h2
+{
+  margin-top: 60px;
+  color: rgb(7, 97, 175);
+  border: 4px;
+  border-style:solid;
+  border-radius: 30px;
+  border-color: rgb(196, 162, 53);
+  background-color: yellow;
+  padding: 6px 12px;
+  display: inline-block;
+}
+#taskInput:focus{
+border-color:rgb(63, 70, 71) ;
+border-width: 0px;
+
+    
+}
+#taskSubmit:hover{
+    background-color: green;
+
+    
+}
+.edit{
+    margin-left: 22px;
+    margin-right: 65px;
+}
+.taskList{
+
+    text-align: center;
+    
+}
+.taskList h2{
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: underline;
+
+}
+#tasks > div.theTask > li > input
+{
+    border-width: 0;
+}
+.remove:hover {
+    background-color: red;
+    
+}
+.edit:hover{
+    background-color: rgb(12, 183, 226);
+}
+
+.middle-line {
+    text-decoration: line-through;
+}
+#searchForm{
+    text-align: center;
+    margin-top: 120px;
+}
+#incompleteForm{
+    text-align: center;
+    left: 120px;
+    font-size: small;
+    margin-top: 50px;
+}

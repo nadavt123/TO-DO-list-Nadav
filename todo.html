@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your TO-DO list</title>
+    <link rel="stylesheet" href="todo.css">
+</head>
+<body>
+   
+    <header>
+        <h1>Add a task</h1>
+        <form id="taskForm">
+            <input type="text" id="taskInput" placeholder="Type your new task"/>
+            <input type="button" id="taskSubmit" value="+" onclick="saveFunc()">
+
+        </form>
+
+        
+    </header>
+    
+
+    <main id="mainId">
+
+        <section class="taskList">
+            <h2>Your List</h2>
+             <div id="tasks">
+                
+                
+            
+            </div> 
+            
+        
+        </section>
+
+    </main>
+    <nav>
+        <form id="searchForm">
+
+        <input type="text" id="searchInput" placeholder="Search a task...🔍">
+        <input type="button" id="searchButton" value="🔍" onclick="searchExecute()">
+
+        </form>
+        
+    </nav>
+
+    <form id="incompleteForm">
+        <input type="button" id="incompleteButton" value="Click to see how many incomplete tasks you have" onclick="createIncomplete()">
+        
+    </form>
+    <p id="paraIncomplete">
+
+            
+    </p>
+     <script src="todo.js"></script>
+</body>
+</html>
